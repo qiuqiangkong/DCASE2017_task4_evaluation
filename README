@@ -1,12 +1,11 @@
-Author:   Qiuqiang Kong, q.kong@surrey.ac.uk
-Created:  16/06/2017
-Modified: 13/07/2017
-=============================
-Example of using evaluation & visualization tool. 
+DCASE2017 task4 evaluation & visualization tool. 
 
 python runme.py
 
-=============================
+(python version: 2.7)
+
+-----------------------------------
+
 (1) Audio tagging. 
       (a) Create a single text-file (csv format, See data/at_prob_mat.csv.gz as example)
           Each line has format:
@@ -20,5 +19,6 @@ python runme.py
       (b) (Modify max_len, step_sec based on your frame duration)
       (c) See runme.py
 
-=============================
+-----------------------------------
 
+Challenge page: http://www.cs.tut.fi/sgn/arg/dcase2017/challenge/task-large-scale-sound-event-detection

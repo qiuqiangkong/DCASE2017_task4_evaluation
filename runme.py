@@ -74,7 +74,7 @@ def at_evaluate_from_submission_csv():
     at_evaluator.print_stat(stat_path=at_stat_path)
     
 def at_evaluate_ankit():
-    at_submission_path = '_submissions/at_stat.csv'
+    at_submission_path = '_submissions/at_submission.csv'
     ankit_csv = 'evaluation_modified_ankitshah009/groundtruth/groundtruth_weak_label_testing_set.csv'
     at_stat_path = '_stats/at_stat_ankit.csv'
     
@@ -120,7 +120,7 @@ def sed_evaluate_from_prob_mat_list_csv():
         out_path=sed_submission_path)
     
 def sed_evaluate_from_submission_csv():
-    sed_submission_path = '_submissions/sed_stat.csv'
+    sed_submission_path = '_submissions/sed_submission.csv'
     sed_stat_path = '_stats/sed_stat_from_submission.csv'
     
     sed_evaluator = evaluate.SoundEventDetectionEvaluate(
